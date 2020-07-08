@@ -6,7 +6,9 @@
 \usepackage{parskip}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage{csquotes}
+\usepackage{pifont}
 \usepackage{float}
+\newcommand\skiplines[1]{\vspace{#1\baselineskip}}
 \usepackage{color}   %May be necessary if you want to color links
 \usepackage{hyperref}
 \hypersetup{
@@ -117,15 +119,15 @@ Prof. Andrea Hanslip \\[1.2em] % Supervisor's Name
 \end{titlepage}
 \renewcommand{\abstractname}{Executive Summary}
 \begin{abstract}
-The purpose of this study was to determine the overall usability of the Green Drinks website. The website is a resource for those who frequently participate in Green Drink meetings. Therefore the website must be organized and usable for individuals to use the website. Green Drinks has a poor website design and needs many improvements. The criteria used to evaluate the website included:
+The purpose of this study was to determine the overall usability of the Green Drinks website. The website is a resource for those who frequently participate in Green Drink meetings. Therefore the website must be organized and usable for individuals to use the website. Green Drinks has a poor website design and needs many improvements. The criteria used to evaluate the website included.
 \begin{itemize}
 \item Strategy
 \item Organization
 \item Style
 \end{itemize}
-Heuristic evaluations were done by each group member on different aspects of websites. Group members researched effective ways to design a website for their aspect based on the criteria chosen. The Green Drinks website was compared to the aspects that were researched and the findings were written in the evaluation.
+Heuristic evaluations were done by each group member on different aspects of the website. Group members researched effective ways to design a website for their aspect based on the criteria chosen. The Green Drinks website was compared to the aspects that were researched and the findings were written in the evaluation.
 A web-based survey was used to ask participants, who were students from COMS 363 (L04), questions and to complete certain tasks on the Green Drinks website. The participants' feedback was taken into consideration when making recommendations.
-The general conclusions found in this study was that there are many things that need to be changed to increase usability. The findings in the heuristic evaluations and the feedback from the survey are similar on what needs to change. From the information gathered we have many recommendations, we broke the recommendations up into four groups which include:
+The general conclusions found in this study was that there are many things that need to be changed to increase usability. The findings in the heuristic evaluations and the feedback from the survey are similar on what needs to change. From the information gathered we have many recommendations, we broke the recommendations up into four groups which include.
 \begin{itemize}
 \item Reduce the size of paragraphs to be more scannable.
 \item Make the website more visually appealing.
@@ -154,11 +156,11 @@ The general conclusions found in this study was that there are many things that 
 
 
 \section{Introduction}
-The purpose of this study was to determine the overall usability of the Green Drinks\cite{1} [1] website. The website is a resource for those who frequently participate in Green Drink meetings. Therefore the website must be organized and usable for individuals to use the website.
+The purpose of this study was to determine the overall usability of the Green Drinks [1] website. The website is a resource for those who frequently participate in Green Drink meetings. Therefore the website must be organized and usable for individuals to use the website.
 
 According to Lynch and Horton [2], visuals are an important aspect of a website. Without it, a website that is graphically uninteresting will demotivate its readers.This study looks at how organization and visuals impact a website, and how these aspects make a website more usable and available to the average user.
 
-This report will talk about the following aspects of visuals and organization: Strategy, Organization of Information, and Style. These key aspects are necessary to any website design because it allows readers to use a website with ease. The Green Drinks website shows to be lacking in these aspects, making it a difficult website to use.
+This report will talk about the following aspects of visuals and organization: Strategy, Organization of Information, and Style. These key aspects are necessary to any website design because these aspects allows readers to use a website with ease. The Green Drinks website shows to be lacking in these aspects, making it a difficult website to use.
 \section{Background}
 Green Drinks was founded in 1990 by Edwin Datschefski, Paul Scott, Ian Grand and Yorick Benjamin [1]. The first Green Drinks gathering took place in London UK, consisting of friends and acquaintances. Over the years, Green Drinks has expanded across Europe. Eventually they had expanded overseas, making New York the first American state to join their organization. 
 
@@ -166,8 +168,8 @@ The organization’s goal is to allow those who share similar environmental inte
 
 One of the main aspects of this organization is that most of their interactions are in person. Since the website consists of no forums or online chats, all forms of communication are physical contact at the meetups. These meetings will usually occur once a month and on average consist of a hundred people.
 
-\section{Objective}
-The usability of the Green Drinks website was evaluated using the following criteria:
+\section{Objectives}
+Here are the objectives of our study:
 
 \begin{itemize}
 \item Analyse the style and organization of information of the website
@@ -176,7 +178,7 @@ The usability of the Green Drinks website was evaluated using the following crit
 \item Create feedback and recommendations
 \end{itemize}
 \section{Research Methodology}
-After reviewing the Green Drinks website we came up with three criteria to evaluate the website. Heuristic evaluations and a web-based survey were the research methods that were used for this study. These two methods were used to analyse the criteria to change the website to increase usability.
+After reviewing the Green Drinks website we procured three criteria to evaluate the website. Heuristic evaluations and a web-based survey were the research methods that were used for this study. These two methods were used to analyse the website.
 
 \section{Criteria}
 The usability of the Green Drinks website was evaluated using the following criteria:
@@ -193,7 +195,7 @@ To investigate the strategy of the website, we looked to see if the goals of the
 \subsection{Organization}
 The organization is important so that users can effectively get the desired information from the site. As stated in Ewald [3], if users have any issues finding what they need from the resource, it has failed to effectively organize its content. The display on the site should be formatted in a way that is intuitive for the users to find what they need.
 \subsection{Style}
-The style of the website should convey to the user the quality of the organization. Sharpened Productions [4] suggests that a poorly styled website provides a bad first impression upon the user and can even turn them away. Today, with so many websites being built with WordPress (\url{https://wordpress.com/}) and GoDaddy (\url{https://ca.godaddy.com/}), the website standard aesthetic has risen. It is more obvious when a website looks old and unmaintained. An unmaintained looking website expresses that a company is unmaintained.
+The style of the website should convey to the user the quality of the organization. Sharpened Productions [4] suggests that a poorly styled website provides a bad first impression upon the user and can even turn them away. Today, with so many websites being built with WordPress (\url{https://wordpress.com/}) and GoDaddy (\url{https://ca.godaddy.com/}), the website standard aesthetic has risen. It is more obvious when a website looks old and unmaintained. An unmaintained looking website expresses that a company is not active any more.
 \section{Heuristic Evaluation}
 The heuristic evaluations were done by each group member individually. Group members did their evaluation on different aspects of a website. See Appendix A to find what each group member wrote about for their heuristic evaluation. Group members researched effective ways to design a website for their specific aspect based on the criteria that was chosen. Group members made a checklist on what a well-done website includes, to compare the checklist with the Green Drinks website to see what was done well and what needs improvement. The findings were written in the heuristic evaluations, and are included in this final report.
 
@@ -233,7 +235,7 @@ A Website’s primary purpose is to offer information to the users. When on the 
 Green Drinks gives too many options to access their ‘Find City’ page. This overwhelms the user and clutters the homepage. Again, a simple yet concise option is best [8]. Goldy Benedict [9] says a single, simple button is the best way to take users where you want them to go. Users are unlikely to go where you want them to if it is not easy.
 
 \subsubsection*{Better Traffic}
-Ever since 2016 mobile internet usage has been higher than computer internet usage [10]. This means that users are more likely to access the website from their mobile phones than their computers. Responsive design is one that changes aspects of the website’s text size, button size, and more, depending on the size of the screen.  Bruce Clay [11] says that additional mobile-only features may be added to improve usability. 
+Ever since 2016, mobile internet usage has been higher than computer internet usage [10]. This means that users are more likely to access the website from their mobile phones than their computers. Responsive design is one that changes aspects of the website’s text size, button size, and more, depending on the size of the screen.  Bruce Clay [11] says that additional mobile-only features may be added to improve usability. 
 Accessing the Green Drinks website from a computer all text and images are of a reasonable size. When accessing the same website from a mobile phone the whole page gets shrunk down. In order to attract more internet traffic, Green Drinks should redesign its website to include responsive design. This will help simplify the page when viewed on a small screen.
 
 \subsection{Survey Results}
@@ -279,8 +281,6 @@ Chunking is not done on the GreenDrinks website.  Figure 2 shows how fully packe
 \includegraphics[width=1.0\textwidth]{f2}
 \caption[Stacked up Homepage]{Stacked up Homepage. From: http://www.greendrinks.org/\footnotemark.}
 \end{figure}
-
-Figure 2: Stacked up Homepage. From: http://www.greendrinks.org/
 
 Stacking them on the homepage is so inconvenient and it makes the website appear to be deviated from showing other essential details[2, chapter 4].
 
@@ -470,11 +470,15 @@ The website has three different ways to find a designated city. This is redundan
 
 
 \subsection*{Add important information to homepage}
-When viewers first visit the website, there is no clear objective or mission statement. This will often confuse viewers because it will be unclear what the purpose of the website is. One solution would be to include a tag line of the organization, or a summary of your goals. Doing this will tell your viewers the purpose of the website.
+When viewers first visit the website, there is no clear objective or mission statement. This will often confuse viewers because it will be unclear what the purpose of the website is. One solution would be to include a tag line of the organization, or a summary of your goals. Doing this will tell your viewers the purpose of the website. \skiplines{4}
 
 
 
+\begin{center}
 
+\ding{91}  \ding{91} \ding{91} \ding{91}
+
+\end{center}
 
 
 \pagebreak
